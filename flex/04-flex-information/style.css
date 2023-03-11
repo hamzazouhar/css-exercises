@@ -1,6 +1,12 @@
 body {
   font-family: 'Courier New', Courier, monospace;
 }
+.vig {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
 
 img {
   width: 100px;
@@ -23,4 +29,13 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+.title {
+  display: flex;
+  justify-content: center;
+}
+.all {
+  display: flex;
+  justify-content: space-around;
+
 }
